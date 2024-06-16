@@ -30,7 +30,7 @@ export const AnnounceDetailPage = () => {
       if (type === 'title') {
         setTitle(value);
       } else if (type === 'content') {
-        setTitle(content);
+        setContent(value);
       }
     };
 
@@ -44,6 +44,15 @@ export const AnnounceDetailPage = () => {
   };
 
   const handleSubmit = () => {
+    if (!title) {
+      message.warning('공지사항 제목을 입력해주세요');
+      return;
+    }
+    if (!content) {
+      message.warning('공지사항 내용을 입력해주세요');
+      return;
+    }
+
     announceAPI.update({
       id: announceId,
       title,
@@ -71,6 +80,7 @@ export const AnnounceDetailPage = () => {
       <S.formItemWrapper>
         <FHFormItem direction="vertical" label="공지사항 제목">
           <FHTextInput
+            data-testid="input-title"
             type="text"
             value={title}
             onChange={handleTextChange('title')}
@@ -79,7 +89,11 @@ export const AnnounceDetailPage = () => {
       </S.formItemWrapper>
       <S.formItemWrapper>
         <FHFormItem direction="vertical" label="공지사항 내용">
-          <FHTextArea value={content} onChange={handleTextChange('content')} />
+          <FHTextArea
+            data-testid="input-content"
+            value={content}
+            onChange={handleTextChange('content')}
+          />
         </FHFormItem>
       </S.formItemWrapper>
       <S.buttonWrapper>

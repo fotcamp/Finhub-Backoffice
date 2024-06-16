@@ -7,6 +7,7 @@ import { FHFormItem } from '@finhub/components/organisms/FormItem';
 import { useNavigate } from 'react-router-dom';
 import { announceAPI } from '@finhub/api/announce';
 import { FHTextArea } from '@finhub/components/atoms/TextArea';
+import { message } from 'antd';
 
 export const AnnounceCreatePage = () => {
   const navigate = useNavigate();
@@ -30,17 +31,17 @@ export const AnnounceCreatePage = () => {
 
   const handleSubmit = async () => {
     if (!title) {
-      alert('공지사항 제목을 입력해주세요');
+      message.warning('공지사항 제목을 입력해주세요');
       return;
     }
     if (!content) {
-      alert('공지사항 내용을 입력해주세요');
+      message.warning('공지사항 내용을 입력해주세요');
       return;
     }
 
     await announceAPI.create({ title, content });
 
-    alert('반영되었습니다.');
+    message.success('반영되었습니다.');
     navigate(`/services/announces`);
   };
 
@@ -49,6 +50,7 @@ export const AnnounceCreatePage = () => {
       <S.formItemWrapper>
         <FHFormItem direction="vertical" label="공지사항 제목">
           <FHTextInput
+            data-testid="input-title"
             type="text"
             value={title}
             onChange={handleTextChange('title')}
@@ -57,7 +59,11 @@ export const AnnounceCreatePage = () => {
       </S.formItemWrapper>
       <S.formItemWrapper>
         <FHFormItem direction="vertical" label="공지사항 내용">
-          <FHTextArea value={content} onChange={handleTextChange('content')} />
+          <FHTextArea
+            data-testid="input-content"
+            value={content}
+            onChange={handleTextChange('content')}
+          />
         </FHFormItem>
       </S.formItemWrapper>
       <S.formItemWrapper>

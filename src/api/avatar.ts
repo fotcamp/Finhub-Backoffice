@@ -45,7 +45,24 @@ const create = async ({ file }: { file?: any }) => {
   return dataSource;
 };
 
+const remove = async ({ id }: { id: number }) => {
+  const response: ApiResposne = await client.delete('/admin/avatar', {
+    id,
+  });
+
+  if (response.status === 'FAIL') {
+    return {
+      errorMsg: response.errorMsg,
+    };
+  }
+
+  const dataSource = response.data;
+
+  return dataSource;
+};
+
 export const avatarAPI = {
   list,
   create,
+  remove,
 };

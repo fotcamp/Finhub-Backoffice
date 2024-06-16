@@ -1,0 +1,73 @@
+{
+  "status": "SUCCESS",
+  "data": {
+    "info": [
+      {
+        "id": 14,
+        "title": "공지사항 TEST10",
+        "content": "공지사항 TEST10",
+        "time": "2024-05-19T12:17:50"
+      },
+      {
+        "id": 13,
+        "title": "공지사항 TEST9",
+        "content": "공지사항 TEST9",
+        "time": "2024-05-19T12:17:44"
+      },
+      {
+        "id": 12,
+        "title": "공지사항 TEST8",
+        "content": "공지사항 TEST8",
+        "time": "2024-05-19T12:17:37"
+      },
+      {
+        "id": 11,
+        "title": "공지사항 TEST7",
+        "content": "공지사항 TEST7",
+        "time": "2024-05-19T12:17:31"
+      },
+      {
+        "id": 10,
+        "title": "공지사항 TEST6",
+        "content": "공지사항 TEST6",
+        "time": "2024-05-19T12:17:26"
+      },
+      {
+        "id": 9,
+        "title": "공지사항 TEST5",
+        "content": "공지사항 TEST5",
+        "time": "2024-05-19T12:17:20"
+      },
+      {
+        "id": 8,
+        "title": "공지사항 TEST4",
+        "content": "공지사항 TEST4",
+        "time": "2024-05-19T12:17:14"
+      },
+      {
+        "id": 7,
+        "title": "공지사항 TEST3",
+        "content": "공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3 공지사항 TEST3",
+        "time": "2024-05-19T12:12:57"
+      },
+      {
+        "id": 6,
+        "title": "공지사항 TEST2",
+        "content": "공지사항 TEST2\n공지사항 TEST2\n공지사항 TEST2",
+        "time": "2024-05-18T07:15:45"
+      },
+      {
+        "id": 5,
+        "title": "공지사항 TEST1",
+        "content": "공지사항 TEST1\n공지사항 TEST1\n공지사항 TEST1",
+        "time": "2024-05-18T07:11:02"
+      }
+    ],
+    "pageInfoProcessDto": {
+      "currentPage": 2,
+      "totalPages": 3,
+      "pageSize": 10,
+      "totalElements": 21
+    }
+  }
+}

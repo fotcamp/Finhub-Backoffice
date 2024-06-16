@@ -19,12 +19,17 @@ export function LoginPage({ onSubmit, register, errors }: Props) {
         <S.heading>관리자 계정</S.heading>
         <S.input>
           <label htmlFor="username">Email</label>
-          <input type="email" {...register('username', { required: true })} />
+          <input
+            data-testid="input-email"
+            type="email"
+            {...register('username', { required: true })}
+          />
           {errors.username && <p>이메일 형식에 맞지 않습니다</p>}
         </S.input>
         <S.input>
           <label htmlFor="password">Password</label>
           <input
+            data-testid="input-password"
             type="password"
             {...register('password', { required: true })}
           />

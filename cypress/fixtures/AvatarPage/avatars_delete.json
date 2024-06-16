@@ -1,0 +1,56 @@
+{
+  "status": "SUCCESS",
+  "data": {
+    "userAvatars": [
+      {
+        "id": 7,
+        "s3ImgUrl": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b",
+        "createdBy": "ROLE_SUPER",
+        "createdTime": "2024-05-05T12:54:54",
+        "modifiedTime": "2024-05-05T12:54:54"
+      },
+      {
+        "id": 6,
+        "s3ImgUrl": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b",
+        "createdBy": "ROLE_SUPER",
+        "createdTime": "2024-05-05T12:54:48",
+        "modifiedTime": "2024-05-05T12:54:48"
+      },
+      {
+        "id": 5,
+        "s3ImgUrl": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b",
+        "createdBy": "ROLE_SUPER",
+        "createdTime": "2024-05-05T12:54:44",
+        "modifiedTime": "2024-05-05T12:54:44"
+      },
+      {
+        "id": 4,
+        "s3ImgUrl": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b",
+        "createdBy": "ROLE_SUPER",
+        "createdTime": "2024-05-05T12:54:39",
+        "modifiedTime": "2024-05-05T12:54:39"
+      },
+      {
+        "id": 3,
+        "s3ImgUrl": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b",
+        "createdBy": "ROLE_SUPER",
+        "createdTime": "2024-05-05T12:54:33",
+        "modifiedTime": "2024-05-05T12:54:33"
+      },
+      {
+        "id": 2,
+        "s3ImgUrl": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b",
+        "createdBy": "ROLE_SUPER",
+        "createdTime": "2024-05-05T12:54:28",
+        "modifiedTime": "2024-05-05T12:54:28"
+      },
+      {
+        "id": 1,
+        "s3ImgUrl": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b",
+        "createdBy": "ROLE_SUPER",
+        "createdTime": "2024-05-05T12:54:23",
+        "modifiedTime": "2024-05-05T12:54:23"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "status": "SUCCESS",
+  "data": {
+    "info": [
+      {
+        "id": 30,
+        "title": "테스트 공지사항 제목 30 수정",
+        "content": "테스트 공지사항 내용 30 수정",
+        "time": "2024-06-12T14:08:17"
+      },
+      {
+        "id": 29,
+        "title": "테스트 공지사항 제목",
+        "content": "테스트 공지사항 내용",
+        "time": "2024-06-12T13:47:44"
+      },
+      {
+        "id": 28,
+        "title": "테스트 공지사항 제목",
+        "content": "테스트 공지사항 내용",
+        "time": "2024-06-12T13:47:30"
+      },
+      {
+        "id": 20,
+        "title": "새로운공지테스트",
+        "content": "공지사항입니다.",
+        "time": "2024-06-05T11:15:53"
+      },
+      {
+        "id": 21,
+        "title": "test",
+        "content": "string",
+        "time": "2024-06-05T11:15:53"
+      },
+      {
+        "id": 19,
+        "title": "안녕하세요",
+        "content": "^^",
+        "time": "2024-05-22T08:31:08"
+      },
+      {
+        "id": 18,
+        "title": "공지사항 TEST14",
+        "content": "공지사항 TEST14",
+        "time": "2024-05-19T16:41:37"
+      },
+      {
+        "id": 17,
+        "title": "공지사항 TEST13",
+        "content": "공지사항 TEST13",
+        "time": "2024-05-19T16:41:30"
+      },
+      {
+        "id": 16,
+        "title": "공지사항 TEST12",
+        "content": "공지사항 TEST12",
+        "time": "2024-05-19T16:41:26"
+      },
+      {
+        "id": 15,
+        "title": "공지사항 TEST11",
+        "content": "공지사항 TEST11",
+        "time": "2024-05-19T16:41:21"
+      }
+    ],
+    "pageInfoProcessDto": {
+      "currentPage": 1,
+      "totalPages": 3,
+      "pageSize": 10,
+      "totalElements": 21
+    }
+  }
+}

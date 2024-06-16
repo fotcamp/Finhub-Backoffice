@@ -19,6 +19,7 @@ export const FHTextArea = ({
   resize = false,
   height = 120,
   readOnly = false,
+  ...props
 }: TextAreaProps) => {
   return (
     <TextArea
@@ -34,6 +35,7 @@ export const FHTextArea = ({
         opacity: readOnly ? 0.8 : 1,
         background: readOnly ? theme.colors.gray.eaeaea : '#ffffff',
       }}
+      {...props}
     />
   );
 };

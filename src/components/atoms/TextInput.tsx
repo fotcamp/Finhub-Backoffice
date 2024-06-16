@@ -33,6 +33,7 @@ export const FHTextInput = ({
   onBlur = () => null,
   placeholder = '',
   type,
+  ...props
 }: TextInputProps) => {
   return (
     <Input
@@ -41,6 +42,7 @@ export const FHTextInput = ({
       onChange={onChange}
       onBlur={onBlur}
       placeholder={placeholder}
+      {...props}
     />
   );
 };
